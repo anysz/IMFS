@@ -9,19 +9,18 @@ In-Memory File Storage written in NodeJS
 > You can use curl, wget, etc instead of git clone
 
 Windows/Linux
-----
+
     git clone https://github.com/anysz/IMFS.git
     npm install
     npm start
 
 Docker
-----
 
     git clone https://github.com/anysz/IMFS.git
     docker build -t imfs:1.0.0 .
     
 Heroku
-----
+
     git clone https://github.com/anysz/IMFS.git
     heroku apps:create imfs-testing
     heroku git:remote
