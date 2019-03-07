@@ -1,0 +1,32 @@
+{
+  "name": "inmemory_file_storage",
+  "version": "1.0.0",
+  "description": "In-Memory File Storage",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anysz/IMFS.git"
+  },
+  "keywords": [
+    "memory",
+    "storage",
+    "server",
+    "http",
+    "rest"
+  ],
+  "author": "anysz",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/anysz/IMFS/issues"
+  },
+  "homepage": "https://github.com/anysz/IMFS#readme",
+  "dependencies": {
+    "busboy": "^0.3.0",
+    "cookieparser": "^0.1.0",
+    "express": "^4.16.4",
+    "xml": "^1.0.1"
+  }
+}
