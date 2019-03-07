@@ -18,6 +18,7 @@ Docker
 
     git clone https://github.com/anysz/IMFS.git
     docker build -t imfs:1.0.0 .
+    docker run imfs:1.0.0 -p 3030 npm start
     
 Heroku
 
